@@ -1,0 +1,50 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.whisperx/
+
+# Ignore Conda environment files (optional)
+*.conda
+*.env
+*.venv
+*.yaml
+*.yml
+
+# Ignore logs and temp files
+logs/
+*.log
+nohup.out
+debug.log
+
+# Ignore Flask cache and instance files
+instance/
+*.db
+*.sqlite3
+
+# Ignore audio files (optional)
+*.wav
+*.mp3
+*.ogg
+*.m4a
+*.flac
+*.aac
+debug_*.wav  # Ignore debug audio files
+*.json  # Ignore debug transcriptions unless needed
+
+# Ignore Node.js/WebSocket related cache files (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter for testing)
+.ipynb_checkpoints/
+
+# Ignore model downloads (if stored locally)
+whisperx_models/
+whisperx_cache/
